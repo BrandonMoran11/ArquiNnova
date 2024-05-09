@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
-
+:root {
+  --color-menu-hover: rgb(238, 238, 238);
+  --color-menu-hover-texto: rgb(0, 0, 0);
+}
 .navbar {
   background-color: #272727;
 }
@@ -126,7 +129,7 @@ h1 ion-icon {
 .btn ion-icon {
   width: 10rem;
 }
-
+/* -------------BARRA LATERAL------------------ */
 .barra-lateral {
   /* border: 2px solid chartreuse; */
   width: 250px;
@@ -145,6 +148,7 @@ h1 ion-icon {
   /* border: 2px solid red; */
   width: 100%;
   height: 45px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -191,6 +195,10 @@ h1 ion-icon {
   align-items: center;
   text-decoration: none;
   color: white;
+}
+.barra-lateral .navegacion a:hover {
+  background-color: var(--color-menu-hover);
+  color: var(--color-menu-hover-texto);
 }
 .barra-lateral .navegacion ion-icon {
   /* border: 2px solid blue; */
