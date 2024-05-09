@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+.navbar {
+  background-color: #272727;
+}
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  background-color: #5d5d5d !important;
+}
+main {
+  display: flex;
+  /* border: 2px solid white; */
+  height: 100%;
+}
+main .container {
+  /* border: 2px solid chartreuse; */
+  margin-top: 20px;
+}
+
+/* -------------------DESCARGA ----------------------*/
+.descarga {
+  /* border: 2px solid red; */
+  color: #ffffff;
+}
+.descarga img {
+  margin-top: 5rem;
+  /* border: 2px solid blue; */
+  height: 25rem;
+  border-radius: 20px;
+}
+.descarga-title {
+  /* border: 2px solid aqua; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.descarga-body .btn-descarga {
+  background-color: #2a2e44 !important;
+  font-size: 20px;
+  align-items: center;
+  color: #ffffff !important;
+  width: 15rem;
+  height: 5rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+.descarga-body ion-icon {
+  height: 2rem;
+  width: 2rem;
+}
+.detalles-descarga {
+  /* border: 2px solid blue; */
+  width: 1rem;
+  height: 30rem;
+  display: flexbox;
+}
+.detalles-descarga h2 {
+  color: #ffffff;
+  font-size: 40px;
+  /* border: 2px solid blue; */
+}
+.detalles-descarga strong {
+  color: #ffffff;
+  font-size: 25px;
+  /* border: 2px solid blue; */
+}
+.detalles-descarga li {
+  color: #ffffff;
+  font-size: 20px;
+  /* border: 2px solid blue; */
+}
+.detalles-descarga div {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  justify-content: center;
+}
+
+/*--------------------------- CARDS----------------- */
+main .container .card {
+  border: 2px solid skyblue;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #5d5d5d;
+  border: none;
+  color: aliceblue;
+}
+main .container .card img {
+  width: 16.5em;
+  border-radius: 20px;
+}
+h1 {
+  display: flex;
+  color: aliceblue;
+}
+h1 a {
+  color: aliceblue !important;
+}
+h1 ion-icon {
+  margin-top: 0.5rem;
+}
+/* main .container .card .card-body {
+  border: 2px solid skyblue;
+} */
+.card-title {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid skyblue; */
+}
+.btn {
+  background-color: #2a2e44 !important;
+  color: aliceblue !important;
+}
+.btn ion-icon {
+  width: 10rem;
+}
+
+.barra-lateral {
+  /* border: 2px solid chartreuse; */
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 0;
+  padding: 20px 15px;
+  background-color: #272727;
+  color: white;
+  transition: width 0.5s ease;
+}
+.mini-barra-lateral {
+  width: 80px;
+}
+.barra-lateral .texturas {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.barra-lateral .texturas ion-icon {
+  /* border: 2px solid rgb(226, 168, 43); */
+  min-width: 50px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.barra-lateral .texturas span {
+  /* border: 2px solid blueviolet; */
+  font-size: 25px;
+  margin-left: 5px;
+  opacity: 1;
+  margin-bottom: 10px;
+  transition: opacity 0.5s ease;
+}
+.barra-lateral span {
+  /* border: 2px solid blueviolet; */
+  font-size: 20px;
+  margin-left: 5px;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.barra-lateral span.oculto {
+  opacity: 0;
+}
+/*-------------------navegacion-lateral---------------------*/
+.barra-lateral .navegacion ul {
+  margin: 0;
+  padding: 0;
+}
+.barra-lateral .navegacion li {
+  /* border: 2px solid white; */
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.barra-lateral .navegacion a {
+  /* border: 2px solid goldenrod; */
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.barra-lateral .navegacion ion-icon {
+  /* border: 2px solid blue; */
+  min-width: 50px;
+  font-size: 20px;
+}
